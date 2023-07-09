@@ -6,3 +6,15 @@ if (x < y) {
 else {
     console.log("x มากกว่า y");
 }
+var selectMenu = 2;
+switch (selectMenu) {
+    case 0:
+        console.log("กะเพรา");
+        break;
+    case 1:
+        console.log("หมูทอด");
+        break;
+    case 2:
+        console.log("ไก่ทอด");
+        break;
+}
